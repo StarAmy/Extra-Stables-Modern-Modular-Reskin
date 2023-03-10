@@ -1,0 +1,180 @@
+{
+  "Format": "1.28",
+"ConfigSchema": {
+    "Version": {
+            "AllowValues": "Static, Seasonal",
+            "Default": "Static"
+        },
+      },
+  "Changes": [
+  {
+  "Action": "EditImage",
+  "Target": "{{PeacefulEnd.SolidFoundations/BuildingTexture:SiTheGreat.SolidFoundations.Stables_ExtraStall}}",
+  "FromFile": "assets/Stable1.png",
+  "PatchMode": "Replace",
+  "When":{ 
+      "Version": "Static"
+    },
+  "Update": "OnLocationChange",
+  "ToArea": {
+    "X": 0,
+    "Y": 0,
+    "Width": 64,
+    "Height": 96
+  }
+},
+ {
+  "Action": "EditImage",
+  "Target": "{{PeacefulEnd.SolidFoundations/BuildingTexture:SiTheGreat.SolidFoundations.Stables_SupplementaryStall}}",
+  "FromFile": "assets/Stable2.png",
+  "PatchMode": "Replace",
+  "When":{ 
+      "Version": "Static"
+    },
+    "Update": "OnLocationChange",
+  "ToArea": {
+    "X": 0,
+    "Y": 0,
+    "Width": 64,
+    "Height": 96
+  }
+},
+  {
+  "Action": "EditImage",
+  "Target": "{{PeacefulEnd.SolidFoundations/BuildingTexture:SiTheGreat.SolidFoundations.Stables_ExtraStall}}",
+  "FromFile": "assets/Stable1.png",
+  "PatchMode": "Replace",
+  "When":{ 
+      "Version": "Seasonal",
+      "Season": "Spring"
+    },
+    "Update": "OnLocationChange",
+  "ToArea": {
+    "X": 0,
+    "Y": 0,
+    "Width": 64,
+    "Height": 96
+  }
+},
+ {
+  "Action": "EditImage",
+  "Target": "{{PeacefulEnd.SolidFoundations/BuildingTexture:SiTheGreat.SolidFoundations.Stables_SupplementaryStall}}",
+  "FromFile": "assets/Stable2.png",
+  "PatchMode": "Replace",
+  "When":{ 
+      "Version": "Seasonal",
+      "Season": "Spring"
+    },
+    "Update": "OnLocationChange",
+  "ToArea": {
+    "X": 0,
+    "Y": 0,
+    "Width": 64,
+    "Height": 96
+  }
+},
+{
+  "Action": "EditImage",
+  "Target": "{{PeacefulEnd.SolidFoundations/BuildingTexture:SiTheGreat.SolidFoundations.Stables_ExtraStall}}",
+  "FromFile": "assets/Stable1.png",
+  "PatchMode": "Replace",
+  "When":{ 
+      "Version": "Seasonal",
+      "Season": "Summer"
+    },
+    "Update": "OnLocationChange",
+  "ToArea": {
+    "X": 0,
+    "Y": 0,
+    "Width": 64,
+    "Height": 96
+  }
+},
+ {
+  "Action": "EditImage",
+  "Target": "{{PeacefulEnd.SolidFoundations/BuildingTexture:SiTheGreat.SolidFoundations.Stables_SupplementaryStall}}",
+  "FromFile": "assets/Stable2.png",
+  "PatchMode": "Replace",
+  "When":{ 
+      "Version": "Seasonal",
+      "Season": "Summer"
+    },
+    "Update": "OnLocationChange",
+  "ToArea": {
+    "X": 0,
+    "Y": 0,
+    "Width": 64,
+    "Height": 96
+  }
+},
+{
+  "Action": "EditImage",
+  "Target": "{{PeacefulEnd.SolidFoundations/BuildingTexture:SiTheGreat.SolidFoundations.Stables_ExtraStall}}",
+  "FromFile": "assets/Stable1.png",
+  "PatchMode": "Replace",
+  "When":{ 
+      "Version": "Seasonal",
+      "Season": "Fall"
+    },
+    "Update": "OnLocationChange",
+  "ToArea": {
+    "X": 0,
+    "Y": 0,
+    "Width": 64,
+    "Height": 96
+  }
+},
+ {
+  "Action": "EditImage",
+  "Target": "{{PeacefulEnd.SolidFoundations/BuildingTexture:SiTheGreat.SolidFoundations.Stables_SupplementaryStall}}",
+  "FromFile": "assets/Stable2.png",
+  "PatchMode": "Replace",
+  "When":{ 
+      "Version": "Seasonal",
+      "Season": "Fall"
+    },
+    "Update": "OnLocationChange",
+  "ToArea": {
+    "X": 0,
+    "Y": 0,
+    "Width": 64,
+    "Height": 96
+  }
+},
+{
+  "Action": "EditImage",
+  "Target": "{{PeacefulEnd.SolidFoundations/BuildingTexture:SiTheGreat.SolidFoundations.Stables_ExtraStall}}",
+  "FromFile": "assets/Stable1_Winter.png",
+  "PatchMode": "Replace",
+  "When":{ 
+      "Version": "Seasonal",
+      "Season": "Winter"
+    },
+    "Update": "OnLocationChange",
+  "ToArea": {
+    "X": 0,
+    "Y": 0,
+    "Width": 64,
+    "Height": 96
+  }
+},
+ {
+  "Action": "EditImage",
+  "Target": "{{PeacefulEnd.SolidFoundations/BuildingTexture:SiTheGreat.SolidFoundations.Stables_SupplementaryStall}}",
+  "FromFile": "assets/Stable2_Winter.png",
+  "PatchMode": "Replace",
+  "When":{ 
+      "Version": "Seasonal",
+      "Season": "Winter"
+    },
+    "Update": "OnLocationChange",
+  "ToArea": {
+    "X": 0,
+    "Y": 0,
+    "Width": 64,
+    "Height": 96
+  }
+}
+
+]
+}
